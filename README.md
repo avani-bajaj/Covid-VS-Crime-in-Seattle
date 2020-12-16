@@ -9,6 +9,28 @@ I am looking into 3 questions -
 2. Is there a relationship between the change in crime vs change in COVID cases?
 3. Is there any significant change in a particular type of crime?
 
+# Process 
+The data is collected from 2 different sources -
+1. ![CDC Data for Weekly COVID cases](https://github.com/avani-bajaj/data-512-final/blob/main/data/PUBLIC_CDC_Event_Date_SARS.xlsx)
+2. ![Seattle 911 calls dataset](https://data.seattle.gov/Public-Safety/Call-Data/33kz-ixgy)
+
+You will have to download/export the files in order to work on the dataset. 
+
+After getting the dataset, run the ![jupyter notebook code](https://github.com/avani-bajaj/data-512-final/blob/main/Final%20project.ipynb)
+
+You will be able to follow the markdown/comments along the code and see the plots and insights added in the file. 
+
+# Vizualizations
+PFB some plots that show the COVID and Crime trends in Seattle
+![COVID Cases](https://github.com/avani-bajaj/data-512-final/blob/main/Plots/Covid_cases.png)
+
+![Daily Crimes](https://github.com/avani-bajaj/data-512-final/blob/main/Plots/Daily_Crime_Count.png)
+
+![Year-on-Year Crime trends](https://github.com/avani-bajaj/data-512-final/blob/main/Plots/Year-on-Year_Trend.png)
+
+![Relationship between COVID and Crime](https://github.com/avani-bajaj/data-512-final/blob/main/Plots/Relationship_COVID_Crime.png)
+
+
 # Conclusion
 We were looking at 3 questions and below are the findings- 
 1. Trends before and after COVID - There was a significant drop in cases when COVID started in Feb’20
@@ -16,19 +38,9 @@ We were looking at 3 questions and below are the findings-
 3. Trends before and after COVID for different crime data call types.
 3/10 Priority Type has a significant change in crime post-COVID. As per our expectation, we saw a change in fraud, house crime and narcotics, but there wasn’t a significant drop in crimes like robbery 
 
-# Vizualizations
-PFB some plots that show the COVID and Crime trends in Seattle
-![COVID Cases](https://github.com/avani-bajaj/DATA512/blob/main/data512-a1/PlotPageviewsWiki.png)
-
-![Daily Crimes](https://github.com/avani-bajaj/DATA512/blob/main/data512-a1/PlotPageviewsWiki.png)
-
-![Year-on-Year Crime trends](https://github.com/avani-bajaj/DATA512/blob/main/data512-a1/PlotPageviewsWiki.png)
-
-![Relationship between COVID and Crime](https://github.com/avani-bajaj/DATA512/blob/main/data512-a1/PlotPageviewsWiki.png)
 # Licence 
 
 We are using CC0 licence for the dataset as it is publically available.  https://github.com/avani-bajaj/data-512-final/blob/main/LICENSE
-
 
 
 
