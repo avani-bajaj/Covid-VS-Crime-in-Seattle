@@ -1,11 +1,30 @@
-# data-512-final
-DATA 512 Final project
+# Relationship between COVID cases and Crime calls count in Seattle, King County, Washington.
 
-# Proposal
-In this project I aim to find relationship between the Crime data and COVID19 cases in Seattle. 
+# Abstract
+In this project I aim to find relationship between the Crime data and COVID19 cases in Seattle. There have been many research been conducted to find the correlation between the COVID cases and Crime calls. We have observed an overall drop in crime but a set of crimes incl. violent crimes, gun, assault have increased.
 The Jupyter notebook in the repository contains the details about the project - motivation, datasets, research questions. 
-I will be doing an initial EDA and then work on the hypothesis. 
+I have worked on an initial EDA and data explaination and then work on the hypothesis. 
+I am looking into 3 questions -
+1. Was there a significant change in the crime during 2019 and 2020?
+2. Is there a relationship between the change in crime vs change in COVID cases?
+3. Is there any significant change in a particular type of crime?
 
+# Conclusion
+We were looking at 3 questions and below are the findings- 
+1. Trends before and after COVID - There was a significant drop in cases when COVID started in Feb’20
+2. Relationship between the COVID cases being captured in Seattle to the crime cases in Seattle. - We did not observe a significant relationship between the COVID cases being captured to the crime cases.
+3. Trends before and after COVID for different crime data call types.
+3/10 Priority Type has a significant change in crime post-COVID. As per our expectation, we saw a change in fraud, house crime and narcotics, but there wasn’t a significant drop in crimes like robbery 
+
+# Vizualizations
+PFB some plots that show the COVID and Crime trends in Seattle
+![COVID Cases](https://github.com/avani-bajaj/DATA512/blob/main/data512-a1/PlotPageviewsWiki.png)
+
+![Daily Crimes](https://github.com/avani-bajaj/DATA512/blob/main/data512-a1/PlotPageviewsWiki.png)
+
+![Year-on-Year Crime trends](https://github.com/avani-bajaj/DATA512/blob/main/data512-a1/PlotPageviewsWiki.png)
+
+![Relationship between COVID and Crime](https://github.com/avani-bajaj/DATA512/blob/main/data512-a1/PlotPageviewsWiki.png)
 # Licence 
 
 We are using CC0 licence for the dataset as it is publically available.  https://github.com/avani-bajaj/data-512-final/blob/main/LICENSE
